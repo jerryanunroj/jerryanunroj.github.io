@@ -1,0 +1,19 @@
+main:
+  - name: About
+    url: "#about"
+    weight: 1
+  - name: News
+    url: "#news"
+    weight: 2
+  - name: Papers
+    url: "#papers"
+    weight: 3
+  - name: Theses
+    url: "#theses"
+    weight: 4
+  - name: Teaching
+    url: "#teaching"
+    weight: 5
+  - name: CV
+    url: /content/Jerry_Anunrojwong_academic_CV.pdf
+    weight: 6

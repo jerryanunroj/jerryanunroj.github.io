@@ -1,0 +1,143 @@
+:root {
+  --color-eureka: #28666e;
+  --color-primary-bg: #f6f7f4;
+  --color-secondary-bg: #ffffff;
+  --color-tertiary-bg: #ece7de;
+  --color-primary-text: rgba(20, 28, 33, 0.92);
+  --color-secondary-text: rgba(31, 41, 46, 0.78);
+  --color-tertiary-text: rgba(31, 41, 46, 0.58);
+}
+
+.dark {
+  --color-eureka: #7bc6bd;
+  --color-primary-bg: #101417;
+  --color-secondary-bg: #171d20;
+  --color-tertiary-bg: #273035;
+  --color-primary-text: rgba(255, 255, 255, 0.9);
+  --color-secondary-text: rgba(255, 255, 255, 0.74);
+  --color-tertiary-text: rgba(255, 255, 255, 0.58);
+}
+
+.prose {
+  max-width: 78ch;
+}
+
+.academic-section {
+  max-width: none;
+}
+
+.academic-section h2 {
+  margin-top: 0;
+}
+
+#about .py-8:has(.header-contact) {
+  padding-bottom: 0 !important;
+  padding-top: 0.65rem !important;
+}
+
+.header-contact {
+  color: var(--color-tertiary-text);
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.header-contact a {
+  color: var(--color-secondary-text);
+}
+
+.news-table {
+  border-collapse: collapse;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  margin: 0;
+  width: 100%;
+}
+
+.news-table tr,
+.news-table td {
+  border: 0;
+}
+
+.news-table td {
+  padding: 0.15rem 0;
+  vertical-align: top;
+}
+
+.news-date {
+  color: var(--color-tertiary-text);
+  font-weight: 600;
+  padding-right: 2rem !important;
+  white-space: nowrap;
+  width: 10.5rem;
+}
+
+@media (max-width: 640px) {
+  .news-table,
+  .news-table tbody,
+  .news-table tr,
+  .news-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .news-date {
+    margin-bottom: 0.2rem;
+    padding-right: 0 !important;
+  }
+}
+
+.paper,
+.thesis {
+  border-top: 1px solid var(--color-tertiary-bg);
+  padding: 1.45rem 0;
+}
+
+.paper:first-of-type,
+.thesis:first-of-type {
+  border-top: 0;
+  padding-top: 0.35rem;
+}
+
+.paper h3,
+.thesis h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.paper p,
+.thesis p {
+  margin: 0.35rem 0;
+}
+
+.paper-meta,
+.paper-venue,
+.paper-note,
+.thesis-note {
+  color: var(--color-secondary-text);
+}
+
+.paper-links {
+  font-size: 0.92rem;
+}
+
+.paper-links a {
+  margin-right: 0.75rem;
+  white-space: nowrap;
+}
+
+.paper-abstract,
+.thesis-abstract {
+  color: var(--color-tertiary-text);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.teaching-group {
+  margin-top: 1.25rem;
+}
+
+.teaching-group h3 {
+  margin-bottom: 0.35rem;
+  font-size: 1.08rem;
+}

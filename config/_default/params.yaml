@@ -1,0 +1,26 @@
+mainSections: []
+description: Academic website of Jerry Anunrojwong, Assistant Professor at Yale School of Management.
+
+repoEditURL:
+dateFormat:
+titleSeparator: "|"
+
+colorScheme: auto
+style:
+
+siteType: Person
+icon: images/icon.png
+publisherName: Jerry Anunrojwong
+publisherLogo:
+
+highlight:
+  handler:
+
+math:
+  handler:
+
+comment:
+  handler:
+
+diagram:
+  handler:

@@ -1,0 +1,36 @@
+baseURL: https://jerryanunroj.github.io/
+title: Jerry Anunrojwong
+theme: eureka
+
+paginate: 10
+copyright: >
+  &copy; {year} Jerry Anunrojwong
+enableEmoji: true
+enableGitInfo: false
+summaryLength: 75
+disablePathToLower: true
+
+defaultContentLanguage: en
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+
+markup:
+  highlight:
+    codeFences: false
+    noClasses: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+  author: authors
+
+build:
+  useResourceCacheWhen: fallback
