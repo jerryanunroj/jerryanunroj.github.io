@@ -6,7 +6,7 @@ avatar: images/jerry_profile.png
 bio: >
   <div class="header-contact">
     <div>jerryanunroj [at] gmail.com</div>
-    <div>jirawat.anunrojwong [at] yale.edu</div>
+    <div>jerry.anunrojwong [at] yale.edu</div>
     <div>
       <a href="/content/Jerry_Anunrojwong_academic_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
       <span>|</span>
