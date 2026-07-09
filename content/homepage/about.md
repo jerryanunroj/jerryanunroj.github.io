@@ -29,7 +29,7 @@ widget:
     attachment:
 ---
 
-I am an Assistant Professor in the Operations group at [Yale School of Management](https://som.yale.edu/).
+I am an Assistant Professor in the Operations group at [Yale School of Management](https://som.yale.edu/faculty-research/faculty-directory/jerry-anunrojwong).
 
 My research focuses on market design, with interests in robustness, information design, and applications in electricity markets, energy, and sustainability. I am particularly interested in how strategic behavior and business model innovation shape the role of batteries and other flexible resources in decarbonizing power systems. A common theme in my work is that market design must be grounded in institutional detail: who participates, what they know, what constraints they face, and how they respond to one another. I combine theory and applications to develop market designs that are rigorous, resilient, and practically relevant.
 
